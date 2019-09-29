@@ -10,8 +10,7 @@ app = Flask(__name__)
 def convert():
     path = request.args.get("path")
     file_name = request.args.get("file_name")
-    gray = request.args.get("gray")
-    return dcm_to_png(path, file_name, gray)
+    return dcm_to_png(path, file_name)
 
 
 if __name__ == '__main__':

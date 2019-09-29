@@ -15,6 +15,6 @@
 #### 接口
 
 - http://{ip}:{port}/convert?path={path}&file_name={file_name}&gray={gray}
-- 例如：http://localhost:18080/convert?path=/Users/cheese/Src/PythonSrc/dmcm-convert/data&file_name=2.dcm&gray=false
+- 例如：http://localhost:18080/convert?path=/Users/cheese/Src/PythonSrc/dmcm-convert/data&file_name=2.dcm
 - path为DCM文件路径。file_name为DCM文件名。gray为布尔值，是否输出灰度图。
 - 返回值为输出的PNG文件路径。
